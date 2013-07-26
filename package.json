@@ -29,6 +29,10 @@
     "directories": {
         "lib": "lib/ace"
     },
+    "jam": {
+      "main": "lib/ace/ace",
+      "dependencies": {}
+    },
     "scripts": {
         "test": "node lib/ace/test/all.js"
     }
